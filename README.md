@@ -1,4 +1,4 @@
-<p align="justify"># A stacking approach based on Convnets and boosting methods for Statoil-C-CORE-Iceberg-Classifier-Challenge
+# A stacking approach based on Convnets and boosting methods for Statoil-C-CORE-Iceberg-Classifier-Challenge
 
 <p align="justify">This project is a solution to the for the Statoil/C-CORE Iceberg Classifier Challenge (https://www.kaggle.com/c/statoil-iceberg-classifier-challenge). Stacking is a form of ensemble learning that combine multiple classification or regression models via a meta-classifier or a meta-regressor. In the first layer, models which are called base models consume the original features as input, while meta model consumes the predictions of the base models as its inputs (https://blog.statsbot.co/ensemble-learning-d1dcd548e936). 
 

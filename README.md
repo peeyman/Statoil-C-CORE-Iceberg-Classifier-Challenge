@@ -2,7 +2,7 @@
 
 This project is a solution to the for the Statoil/C-CORE Iceberg Classifier Challenge (https://www.kaggle.com/c/statoil-iceberg-classifier-challenge). Stacking is a form of ensemble learning that combine multiple classification or regression models via a meta-classifier or a meta-regressor. In the first layer, models which are called base models consume the original features as input, while meta model consumes the predictions of the base models as its inputs (https://blog.statsbot.co/ensemble-learning-d1dcd548e936). 
 
-For the base models different models including VGG16, Resnet50, Mobilenet, some self-defined CNNs, and some tree boosting models are used. The meta model is a lightGBM model.
+For the base models different models including VGG16, Resnet50, Mobilenet, some self-defined CNNs, and some tree boosting models are used. The meta model is a lightGBM model. For each base model 5-fold cross validation is used.
 
 ## Data
 Put train.jason and test.jason files into "Input" directory. (https://www.kaggle.com/c/statoil-iceberg-classifier-challenge/data)

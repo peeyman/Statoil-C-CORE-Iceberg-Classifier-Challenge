@@ -143,7 +143,7 @@ def getVggAngleModel():
     return gmodel
 
 def myAngleCV(X_train, X_train_angle,X_train_size, X_test):
-    K = 3
+    K = 5
     folds = list(StratifiedKFold(n_splits=K, shuffle=True, random_state=20).split(X_train, target_train))
     y_test_pred_log = 0
     y_train_pred_log = 0

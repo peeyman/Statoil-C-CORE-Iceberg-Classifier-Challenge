@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82eef596-de58-4fd2-ab72-7fd7004f9e76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base Models/inception1.py" afterPath="$PROJECT_DIR$/Base Models/inception1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base Models/InceptionV3.py" afterPath="$PROJECT_DIR$/Base Models/InceptionV3.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="corr_preds.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="corr_preds.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Statistics/corr_preds.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2337">
               <caret line="23" column="69" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InceptionV3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Base Models/InceptionV3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="231" column="9" lean-forward="false" selection-start-line="231" selection-start-column="9" selection-end-line="231" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -29,16 +38,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
               <caret line="145" column="9" lean-forward="false" selection-start-line="145" selection-start-column="9" selection-end-line="145" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobilenet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Base Models/mobilenet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="115" column="9" lean-forward="false" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -135,7 +134,6 @@
       <list>
         <option value="$PROJECT_DIR$/Statistics/corr_preds.py" />
         <option value="$PROJECT_DIR$/Base Models.py" />
-        <option value="$PROJECT_DIR$/Base Models/InceptionV3.py" />
         <option value="$PROJECT_DIR$/Base Models/kernel1.py" />
         <option value="$PROJECT_DIR$/Base Models/pChiaStats.py" />
         <option value="$PROJECT_DIR$/Meta/meta.py" />
@@ -149,6 +147,7 @@
         <option value="$PROJECT_DIR$/Meta Model/meta.py" />
         <option value="$PROJECT_DIR$/Base Models/pHOGStats.py" />
         <option value="$PROJECT_DIR$/Base Models/inception1.py" />
+        <option value="$PROJECT_DIR$/Base Models/InceptionV3.py" />
       </list>
     </option>
   </component>
@@ -557,14 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Base Models/InceptionV3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5829">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Meta Model/meta.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1610">
@@ -601,6 +592,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2337">
           <caret line="23" column="69" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base Models/InceptionV3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="231" column="9" lean-forward="false" selection-start-line="231" selection-start-column="9" selection-end-line="231" selection-end-column="9" />
           <folding />
         </state>
       </provider>

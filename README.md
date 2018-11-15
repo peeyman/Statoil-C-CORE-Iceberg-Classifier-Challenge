@@ -5,7 +5,7 @@ This project is a solution to the for the Statoil/C-CORE Iceberg Classifier Chal
 For the base models different models including VGG16, Resnet50, Mobilenet, some self-defined CNNs, and some tree boosting models are used. The meta model is a lightGBM model.
 
 ## Data
-Put train.jason and test.jason into Input directory. (https://www.kaggle.com/c/statoil-iceberg-classifier-challenge/data)
+Put train.jason and test.jason files into "Input" directory. (https://www.kaggle.com/c/statoil-iceberg-classifier-challenge/data)
 
 ## Requirements
 
